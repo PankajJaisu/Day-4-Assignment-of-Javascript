@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment 3</title>
+</head>
+<body>
+<h3>output will be displayed on console screen,press(F12)</h3>
+</body>
+<script>
+inp1=Number(prompt('1:Addition 2:Substraction 3:Multiplication 4:Divison 5:percentage 6:Square_root'))
+switch(inp1)
+{
+    case 1:
+    inp2=prompt('Enter 1st No')
+    inp3=prompt('Enter 2nd No')
+    res=inp2+inp3
+    document.write(`Addition:${res}`)
+    break
+    case 2:
+    inp2=prompt('Enter 1st No')
+    inp3=prompt('Enter 2nd No')
+    res=inp2-inp3
+    document.write('Substraction:',res)
+    break
+    case 3:
+    inp2=prompt('Enter 1st No')
+    inp3=prompt('Enter 2nd No')
+    res=inp2*inp3
+    document.write('Multiplication:',res)
+    break
+    case 4:
+    inp2=prompt('Enter 1st No')
+    inp3=prompt('Enter 2nd No')
+    res=inp2/inp3
+    document.write('Divison:',res)
+    break
+    case 5:
+    inp2=prompt('Enter Marks you got ')
+    inp3=prompt('Enter total marks')
+    res=100/inp3
+    result=res*inp2
+    console.log('Percentage:',result)
+    break
+    case 6:
+    inp2=prompt('Enter No')
+    res=Math.sqrt(inp2)
+    document.write('Divison:',res)
+    break
+}
+</script>
+</html>
